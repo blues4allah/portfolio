@@ -753,12 +753,16 @@ li {
 	}
 
 	.desc-container {
-		padding: 60px 5% 40px;
+		padding: 40px 5% 40px;
 	}
 
 	.desc {
-		padding-top: 10px;
+		padding-top: 30px;
 		padding-bottom: 40px;
+	}
+
+	.desc-container h6 {
+		font-size: 40px;
 	}
 
 	#footer {
@@ -880,6 +884,13 @@ li {
 
 	.row {
 		flex-direction: column;
+	}
+
+	.row .item {
+		width: 100%;
+	}
+
+	#portraits .row {
 		width: 100%;
 	}
 
