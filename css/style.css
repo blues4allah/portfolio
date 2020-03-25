@@ -460,6 +460,10 @@ iframe {
 	text-decoration: none;
 }
 
+.interior-header a:hover .interior-site {
+	color: #DAABE4;
+}
+
 .interior-white {
 	color: #fff;
 }
@@ -876,6 +880,7 @@ li {
 
 	.row {
 		flex-direction: column;
+		width: 100%;
 	}
 
 	#header {
@@ -887,7 +892,15 @@ li {
 		padding: 0 15px;
 	}
 
-	.row .item {
+	#portraits .row .item-overlap {
+		width: 100%;
+	}
+
+	#portraits .item-overlap .box-overlap * {
+		width: 100%;
+	}
+
+	#portraits .row .item {
 		width: 100%;
 	}
 
@@ -909,7 +922,7 @@ li {
 	}
 
 	.about #social-about .social-item img {
-		max-width: 50px;
+		max-width: 40px;
 	}
 
 	.about #social-about {
