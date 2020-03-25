@@ -150,9 +150,9 @@ p {
 .about #social-about {
 	margin: 0 auto 0 auto;
 	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
 #social-about p {
@@ -904,13 +904,17 @@ li {
 		margin-top: 50px;
 	}
 
-	.social-item {
-		margin-left: 5px;
-		margin-right: 5px;
+	.about #social-about .social-item {
+		width: 100%;
 	}
 
 	.about #social-about .social-item img {
-		max-width: 20px;
+		max-width: 50px;
+	}
+
+	.about #social-about {
+  	-webkit-flex-direction: column;
+  	flex-direction: column;
 	}
 
 	.tags {
