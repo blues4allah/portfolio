@@ -905,7 +905,12 @@ li {
 	}
 
 	.social-item {
-		margin-left: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.about #social-about .social-item img {
+		max-width: 20px;
 	}
 
 	.tags {
