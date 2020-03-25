@@ -184,6 +184,7 @@ body {
 	margin: -35px 0 0 35px;
 	line-height: 110%;
 	text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.7);
+	transform: translateZ(0);
 }
 
 .box-overlap .tags {
@@ -419,16 +420,16 @@ iframe {
 }
 
 .item-overlap img {
-	transition: all .6s ease;
+	transition: all .5s ease;
 }
 
 .item-overlap h3 {
-	transition: all .3s ease;
+	transition: all .4s ease;
 }
 
 .item-overlap:hover img {
 	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.6);
-	margin-top: -10px;
+	transform: translateY(-10px);
 }
 
 .item-overlap:hover {
@@ -436,7 +437,15 @@ iframe {
 }
 
 .item-overlap:hover h3 {
-	margin-top: -40px;
+	transform: translateY(-15px);
+}
+
+.item-overlap:hover p {
+	transform: translateY(-15px);
+}
+
+.item-overlap p {
+	transition: transform .5s ease;
 }
 
 .interior-site {
