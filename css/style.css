@@ -905,7 +905,7 @@ li {
 	}
 
 	.about #social-about .social-item {
-		width: 100%;
+		width: 50%;
 	}
 
 	.about #social-about .social-item img {
@@ -913,8 +913,7 @@ li {
 	}
 
 	.about #social-about {
-  	-webkit-flex-direction: column;
-  	flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.tags {
