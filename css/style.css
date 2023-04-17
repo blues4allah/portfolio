@@ -630,6 +630,7 @@ iframe {
 .row .item-overlap {
 	display: inline;
 	width: calc(100% - 50px);
+	transition: all .4s ease;
 }
 
 .row {
