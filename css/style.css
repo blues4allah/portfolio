@@ -1,8 +1,11 @@
 /* FONTS */
 
 @font-face {
-  font-family: Roslindale;
-  src: url(https://d1ih3jzbl9wgdj.cloudfront.net/hosted/2/public_uploads/0a5d83ef-8313-47a0-8e5f-56f04bbe0670.ttf);
+  font-family: 'Roslindale';
+  src: url('/webFonts/venusSB-MediumRoslindale.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 a h2:hover {
