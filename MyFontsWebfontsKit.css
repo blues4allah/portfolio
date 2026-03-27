@@ -19,11 +19,15 @@
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/3b3c24");
-  
+@import url("https://hello.myfonts.net/count/3b3c24");
+
 @font-face {
-  src: url('webFonts/VenusSB-Medium/font.eot');
   font-family: 'VenusSB-Medium';
-  src: url('webFonts/VenusSB-Medium/font.woff2') format('woff2'), url('webFonts/VenusSB-Medium/font.woff') format('woff'), url('webFonts/VenusSB-Medium/font.eot?#iefix') format('embedded-opentype'), url('webFonts/VenusSB-Medium/font.ttf') format('truetype');
+  src: url('webFonts/VenusSB-Medium/font.woff2') format('woff2'),
+       url('webFonts/VenusSB-Medium/font.woff') format('woff'),
+       url('webFonts/VenusSB-Medium/font.ttf') format('truetype'),
+       url('webFonts/VenusSB-Medium/font.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
