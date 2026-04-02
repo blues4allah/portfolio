@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: 'Roslindale';
-  src: url('/webFonts/VenusSB-Medium/Roslindale.ttf') format('truetype');
+  src: 	url('/webFonts/roslindale/Roslindale-DisplayCondensedRegular.woff') format('woff'),
+  		url('/webFonts/roslindale/Roslindale.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
