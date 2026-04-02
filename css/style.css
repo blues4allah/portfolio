@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Young Serif';
-  src: url('./webFonts/young-serif/young-serif-med.woff2') format('woff2');
+  src: url('../webFonts/young-serif/young-serif-light.woff2') format('woff2');
   font-style: normal;
 	font-weight: normal;
 }
@@ -57,7 +57,7 @@ h3 {
 	font-size: 30px;
 	color: #FFE230;
 	margin: 10px 0 0 0;
-	line-height: 120%;
+	line-height: 100%;
 	letter-spacing: .5px;
 }
 
@@ -658,7 +658,7 @@ iframe {
 }
 
 .tags {
-	margin-top: 6px;
+	margin-top: 15px;
 	text-align: left;
 }
 
